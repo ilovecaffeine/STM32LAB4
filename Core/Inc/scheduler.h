@@ -25,6 +25,8 @@ typedef struct {
     uint8_t RunMe;
     // Task ID
     uint32_t TaskID;
+
+    bool isActive;
 } sTask;
 
 
@@ -32,11 +34,15 @@ typedef struct {
 // Function to initialize the scheduler
 void Scheduler_Init(void);
 
+bool Scheduler_IsTaskScheduled(void (*pF)(void));
+
 // Function to add a task to the scheduler
-void Scheduler_AddTask(void (*pTask)(void), uint32_t Delay, uint32_t Period); //settimer
+bool Scheduler_AddTask(void (*pTask)(void), uint32_t Delay, uint32_t Period); //settimer
 
 // Function to remove a task from the scheduler
-void Scheduler_DeleteTask(uint32_t TaskID);
+void Scheduler_DeleteTask_byindex(uint32_t TaskID);
+
+void Scheduler_DeleteTask_byname(void (*pF)(void));
 
 void Scheduler_Update(void); //timerRun
 

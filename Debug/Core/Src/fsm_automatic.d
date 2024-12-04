@@ -1,4 +1,6 @@
-Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
+Core/Src/fsm_automatic.o: ../Core/Src/fsm_automatic.c \
+ ../Core/Inc/fsm_automatic.h ../Core/Inc/gobal.h \
+ ../Core/Inc/software_timer.h ../Core/Inc/button.h ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -23,11 +25,11 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- ../Core/Inc/software_timer.h ../Core/Inc/button.h ../Core/Inc/main.h \
- ../Core/Inc/fsm_automatic.h ../Core/Inc/gobal.h \
- ../Core/Inc/software_timer.h ../Core/Inc/button.h ../Core/Inc/7Segs.h \
- ../Core/Inc/scheduler.h ../Core/Inc/fsm_manual.h \
- ../Core/Inc/fsm_select_mode.h ../Core/Inc/scheduler.h
+ ../Core/Inc/7Segs.h ../Core/Inc/scheduler.h
+../Core/Inc/fsm_automatic.h:
+../Core/Inc/gobal.h:
+../Core/Inc/software_timer.h:
+../Core/Inc/button.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -53,15 +55,5 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
-../Core/Inc/software_timer.h:
-../Core/Inc/button.h:
-../Core/Inc/main.h:
-../Core/Inc/fsm_automatic.h:
-../Core/Inc/gobal.h:
-../Core/Inc/software_timer.h:
-../Core/Inc/button.h:
 ../Core/Inc/7Segs.h:
-../Core/Inc/scheduler.h:
-../Core/Inc/fsm_manual.h:
-../Core/Inc/fsm_select_mode.h:
 ../Core/Inc/scheduler.h:

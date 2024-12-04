@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "fsm_select_mode.h": "c",
+        "scheduler.h": "c"
+    }
+}

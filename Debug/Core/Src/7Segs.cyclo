@@ -1,0 +1,5 @@
+../Core/Src/7Segs.c:23:6:off_all_Seg	1
+../Core/Src/7Segs.c:43:8:display7SEG	13
+../Core/Src/7Segs.c:142:8:display7SEG2	13
+../Core/Src/7Segs.c:242:6:display2DigitNumberWay1	7
+../Core/Src/7Segs.c:277:6:display2DigitNumberWay2	7

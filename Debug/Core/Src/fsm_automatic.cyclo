@@ -1,0 +1,10 @@
+../Core/Src/fsm_automatic.c:15:6:countdownSecWay1	2
+../Core/Src/fsm_automatic.c:21:6:transitionToAutoGreenWay1	1
+../Core/Src/fsm_automatic.c:27:6:transitionToAutoYellowWay1	1
+../Core/Src/fsm_automatic.c:33:6:transitionToAutoRedWay1	1
+../Core/Src/fsm_automatic.c:40:6:countdownSecWay2	2
+../Core/Src/fsm_automatic.c:46:6:transitionToAutoGreenWay2	1
+../Core/Src/fsm_automatic.c:52:6:transitionToAutoYellowWay2	1
+../Core/Src/fsm_automatic.c:58:6:transitionToAutoRedWay2	1
+../Core/Src/fsm_automatic.c:66:6:fsm_automatic_run_way1	11
+../Core/Src/fsm_automatic.c:186:6:fsm_automatic_run_way2	8
